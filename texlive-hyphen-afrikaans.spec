@@ -47,12 +47,12 @@ considered superior in quality.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-afrikaans <<EOF
-%% from hyphen-afrikaans:
+\%\% from hyphen-afrikaans:
 afrikaans loadhyph-af.tex
 EOF
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-afrikaans <<EOF
-%% from hyphen-afrikaans:
+\%\% from hyphen-afrikaans:
 \addlanguage{afrikaans}{loadhyph-af.tex}{}{1}{2}
 EOF
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
