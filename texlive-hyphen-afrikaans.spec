@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-hyphen-afrikaans
-Version:	20111103
-Release:	2
+Version:	20120124
+Release:	1
 Summary:	Afrikaans hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -47,14 +47,16 @@ considered superior in quality.
 %install
 mkdir -p %{buildroot}%{_texmf_language_dat_d}
 cat > %{buildroot}%{_texmf_language_dat_d}/hyphen-afrikaans <<EOF
-\%\% from hyphen-afrikaans:
+\%% from hyphen-afrikaans:
 afrikaans loadhyph-af.tex
 EOF
+perl -pi -e 's|\\%%|%%|;' %{buildroot}%{_texmf_language_dat_d}/hyphen-afrikaans
 mkdir -p %{buildroot}%{_texmf_language_def_d}
 cat > %{buildroot}%{_texmf_language_def_d}/hyphen-afrikaans <<EOF
-\%\% from hyphen-afrikaans:
+\%% from hyphen-afrikaans:
 \addlanguage{afrikaans}{loadhyph-af.tex}{}{1}{2}
 EOF
+perl -pi -e 's|\\%%|%%|;' %{buildroot}%{_texmf_language_def_d}/hyphen-afrikaans
 mkdir -p %{buildroot}%{_texmf_language_lua_d}
 cat > %{buildroot}%{_texmf_language_lua_d}/hyphen-afrikaans <<EOF
 -- from hyphen-afrikaans:
