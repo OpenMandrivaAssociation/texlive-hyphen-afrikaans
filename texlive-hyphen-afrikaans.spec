@@ -1,11 +1,11 @@
-# revision 23092
+# revision 25990
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-hyphen-afrikaans
-Version:	20120124
+Version:	20120611
 Release:	1
 Summary:	Afrikaans hyphenation patterns
 Group:		Publishing
