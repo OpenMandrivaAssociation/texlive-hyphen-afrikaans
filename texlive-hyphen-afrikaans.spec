@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-hyphen-afrikaans
-Version:	20120611
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	Afrikaans hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
