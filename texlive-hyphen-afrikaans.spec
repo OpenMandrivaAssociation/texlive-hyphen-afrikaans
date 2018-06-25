@@ -1,5 +1,5 @@
 Name:		texlive-hyphen-afrikaans
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Afrikaans hyphenation patterns
 Group:		Publishing
