@@ -1,6 +1,6 @@
 Name:		texlive-hyphen-afrikaans
 Version:	20180303
-Release:	2
+Release:	3
 Summary:	Afrikaans hyphenation patterns
 Group:		Publishing
 URL:		http://tug.org/texlive
